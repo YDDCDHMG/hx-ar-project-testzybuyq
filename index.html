@@ -21,7 +21,7 @@
                     window.location.href = 'https://chat.whatsapp.com/D6slqeNlMluFNYIqeGzreJ';
                 }, false);
 
-                window.addEventListener('click', function () {
+                document.body.addEventListener('click', function () {
                     if (visible) {
                         document.querySelector('#vid').play();
                     }
@@ -42,11 +42,6 @@
 
             },
         });
-    </script>
-    <script>
-        if (!!window.performance && window.performance.navigation.type == 2) {
-            window.location.reload();
-        }
     </script>
 </head>
 
